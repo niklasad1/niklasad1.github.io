@@ -2,6 +2,29 @@
 layout: page
 title: Projects
 ---
+<h2>Projects</h2>
+
+<h4>TockOS</h4>
+<p><em>Source: <a href="https://github.com/helena-project/tock">GitHub</a></em>
+<em>Website: <a href="https://www.tockos.org/">https://www.tockos.org</a></em></p>
+A new secure embedded operating system for IoT devices where I work on support
+for nRF51-DK and nRF52-DK on my free time. So far we have support for a light-weight
+Bluetooth Low Energy stack, AES128 counter-mode, TRNG, Temperature Sensor, GPIO
+and SPI.
+
+<h4>Raspberry Pi 3 WeatherStation</h4>
+<p><em>Source: <a href="https://github.com/niklasad1/RPi_WeatherStation">GitHub</a></em></p>
+I wrote a WeatherStation application on Raspberry Pi 3 to measure temperature,
+humidity and pressure using a SenseHat I/O board along with a front-end. The
+front-end is also using python (Flask).
+
+<h4>Malicious Applet</h4>
+<p><em>Source: <a href="https://github.com/niklasad1/JavaExploit">GitHub</a></em></p>
+I wrote a cross-platform KeyLogger that is exploiting an old vulnerability in Java
+Applets. It works on Windows, OSX and Linux using old versions of Java with
+applets enabled in the browser.
+
+
 <section class="list">
     {% for post in site.posts %}
         {% if post.projects %}

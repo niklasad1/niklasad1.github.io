@@ -1,0 +1,18 @@
+---
+title: "HelloWorld"
+layout: post
+date: 2017-10-06 11:23
+image: /assets/images/niklas.jpg
+headerImage: false
+tag:
+- #HelloWorld
+category: blog
+author: niklasad1
+description: Markdown summary with different options
+jemoji: 
+---
+
+Hi, I will write about things that I learn (spoiler it will mainly be about Rust
+and C)
+
+See you soon! 

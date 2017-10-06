@@ -1,6 +1,6 @@
 # main text of home
 name: Niklas Adolfsson
-bio: 
+bio: I enjoy writing code free from undefined behaviour
 
 # twitter summary info
 description: Todo
@@ -8,11 +8,11 @@ description: Todo
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: assets/images/niklas.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: false
+Talks: true
 # resume-external: true
 # resume-url: https://google.com/?q=my+resume
 
@@ -44,9 +44,9 @@ keybase: niklasad1
 authors:
     niklasad1:
         name: Niklas Adolfsson
-        bio:      
+        bio: I enjoy write code free from undefined behaviour     
         external-image: false
-        picture: assets/images/profile.jpg
+        picture: assets/images/niklas.jpg
         twitter: niklasad1
 
 # do you want a larger site? change the option below
@@ -59,11 +59,11 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: false
+projects: true
 
 # if you don't need "about" or "blog", comment them out below
-about: false
-blog: false
+about: true
+blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
